@@ -21,6 +21,7 @@ app.post('*', function(req, res) {
 app.get('*', function(req, res) {
 
     // ejs render automatically looks in the views folder
+    // test
     res.status(200).render('index');
 });
 
